@@ -257,7 +257,7 @@
           var kab  = layer.feature.properties.NAME_2;
           kab = kab.toUpperCase();
           var prov = layer.feature.properties.NAME_1;
-          var positif=dataMap.positif;
+          
           
           //
           if(!Array.isArray(dataMap) || !dataMap.length == 0 ){
@@ -299,11 +299,11 @@
               
              data +='  <tr style="color:red">';
               data +='    <td>Positif</td>';
-              data +='    <td>: '+positif+'</td>';
+              data +='    <td>: '+dataMap[index].positif+'</td>';
               data +='  </tr>';
               
 
-             /* data +='  <tr style="color:green">';
+              data +='  <tr style="color:green">';
               data +='    <td>Sembuh</td>';
               data +='    <td>: '+dataMap[index].sembuh+'</td>';
               data +='  </tr>'; 
@@ -320,7 +320,7 @@
               data +='  </tr>';               
               
               
-            data +='</table>';*/
+            data +='</table>';
     
             if(kab == 'BANGLI'){
               markers.addLayer( 
