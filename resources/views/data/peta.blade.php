@@ -36,23 +36,23 @@
     <div class="col-sm-6 " style="margin-bottom: 15px">
         <div class="card shadow-sm">
           <div class="card-title d-flex justify-content-center ">
-            <strong>Generate Warna Maps</strong>
+            <strong>Gradasi Warna </strong>
           </div>
           <hr>
           <div class="card-body">
             <div class="row">
               <div class="col-6">
-                Color Start
-                  <input type="color" value="#E5000D" class="form-control" id="colorStart">
+                Titik Tertinggi
+                  <input type="color" value="#611E15" class="form-control" id="colorStart">
               </div>
               <div class="col-6">
-                 Color End
-                   <input type="color" value="#FFFFFF" class="form-control" id="colorEnd">
+                 Titik Terendah
+                   <input type="color" value="#EDF377" class="form-control" id="colorEnd">
               </div>
               </div>
              <div class="row mt-2">
                 <div class="col-12">
-                <button class="btn btn-primary form-control" id="btnGenerateColor">Generate Color</button>
+                <button class="btn btn-primary form-control" id="btnGenerateColor">Run</button>
               </div>
 
           </div>
@@ -145,15 +145,15 @@
     var dataMap=null;
     var dataPos=null;
     var colorMap=[
-      "#40E93F",
-      "#69EA39",
-      "#96EC33",
-      "#C7ED2D",
-      "#EFE027",
-      "#F0AA21",
-      "#F2701B",
-      "#F33215",
-      "#F50E2E"
+      "611E15",
+      "723821",
+      "84532D",
+      "956D39",
+      "A78846",
+      "B8A352",
+      "CABD5E",
+      "DBD86A",
+      "EDF377"
     ];
     var tanggal = $('#tanggalSearch').val();
     console.log(tanggal);
