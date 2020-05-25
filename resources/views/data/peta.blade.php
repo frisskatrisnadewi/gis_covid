@@ -291,7 +291,7 @@
                 data +='  </tr>';
               
               
-               data +='  <tr>';
+          /*     data +='  <tr>';
               data +='    <td>Kabupaten</td>';
               data +='    <td>: '+kab+'</td>';
               data +='  </tr>';              
@@ -317,7 +317,7 @@
               data +='  <tr style="color:blue">';
               data +='    <td>Dalam Perawatan</td>';
               data +='    <td>: '+dataMap[index].rawat+'</td>';
-              data +='  </tr>';               
+              data +='  </tr>';    */           
               
               
             data +='</table>';
